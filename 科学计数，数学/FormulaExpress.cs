@@ -20,6 +20,7 @@ namespace Utilities
         None,//无
     }
 
+
     /// <summary>
     /// FormulaDeal
     /// </summary>
@@ -84,6 +85,7 @@ namespace Utilities
             }
             return Convert.ToDouble(strExpression);
         }
+
 
         private double CalculateExExpress(string strExpression, EnumFormula ExpressType)
         {

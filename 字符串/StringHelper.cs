@@ -50,6 +50,7 @@ namespace Common.Utility
             }
             return list;
         }
+
         /// <summary>
         /// 把字符串转 按照, 分割 换为数据
         /// </summary>
