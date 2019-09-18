@@ -23,6 +23,7 @@ namespace Common.Utility
         /// <returns>返回是否成功</returns>
         public static bool ResponseFile(HttpRequest _Request, HttpResponse _Response, string _fileName, string _fullPath, long _speed)
         {
+            string s = string.Empty;
             try
             {
                 FileStream myFile = new FileStream(_fullPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
